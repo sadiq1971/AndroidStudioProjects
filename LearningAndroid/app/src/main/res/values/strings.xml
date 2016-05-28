@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Learning Android</string>
+    <string name="editText">Some text</string>
+    <string name="text_here">Text here!</string>
+    <string name="submit_txt">SUBMIT</string>
+
+
+    <string name="app_name2">ListDisplay</string>
+    <string name="action_settings">Settings</string>
+</resources>
