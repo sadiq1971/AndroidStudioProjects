@@ -28,7 +28,7 @@
                 android:layout_toRightOf="@+id/person_photo"
                 android:layout_alignParentTop="true"
                 android:textSize="30sp"
-                android:text="@string/name" />
+                android:text="@string/person_name" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -36,7 +36,7 @@
                 android:id="@+id/person_age"
                 android:layout_toRightOf="@+id/person_photo"
                 android:layout_below="@+id/person_name"
-                android:text="@string/figure" />
+                android:text="@string/person_figure" />
 
         </RelativeLayout>
 
