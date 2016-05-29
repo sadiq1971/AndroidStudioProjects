@@ -2,9 +2,24 @@
     <string name="app_name">Green Academy</string>
 
 
+    <string name="home_text">Home</string>
+    <string name="homeback_text">Back home</string>
+
+
     <string name="contact_details">Contact: 0756 56 78 97</string>
     <string name="about_text">About</string>
-    <string name="home_text">Home</string>
+    <string name="aboutus_text">About us</string>
+    <string name="aboutusinfo_text">
+        Let's try to run our modified Hello World!
+        application we just modified. I assume you had created your AVD
+        while doing environment set-up. To run the app from Android studio,
+        open one of your project's activity files and click Run Eclipse Run Icon icon from the tool bar.
+        Android studio installs the app on
+        your AVD and starts it and if everything is fine with your set-up and application,
+        it will display following Emulator window
+    </string>
+
+
     <string name="join_text">Join</string>
     <string name="username_text">Enter name here</string>
     <string name="password_text">Enter name here</string>
