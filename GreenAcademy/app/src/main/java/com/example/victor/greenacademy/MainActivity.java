@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     public static Button button_about;
     public static Button button_join;
+    public static Button button_new;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     public void OnButtonClickListener(){
         button_about= (Button)findViewById(R.id.button_about);
         button_join= (Button)findViewById(R.id.button_join);
+        button_new= (Button)findViewById(R.id.button_new);
 
         //Create the onClick response for the button_about
         button_about.setOnClickListener(
@@ -44,6 +46,17 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(View x) {
                         //Create an object of the intent
                         Intent intent2  = new Intent("com.example.victor.greenacademy.JoinActivity");
+
+                        startActivity(intent2); //Calls the intent to call the activity
+                    }
+                }
+        );
+        button_new.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View x) {
+                        //Create an object of the intent
+                        Intent intent2  = new Intent("com.example.victor.greenacademy.NewActivity");
 
                         startActivity(intent2); //Calls the intent to call the activity
                     }

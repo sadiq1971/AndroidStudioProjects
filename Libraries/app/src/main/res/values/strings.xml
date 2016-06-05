@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Libraries</string>
+
+    <string name="button_test">Click for effect and land into anothter pager</string>
+    <string name="drawer_open">1</string>
+    <string name="drawer_close">0</string>
+</resources>

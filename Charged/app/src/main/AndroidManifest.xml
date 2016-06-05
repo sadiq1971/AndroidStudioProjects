@@ -19,7 +19,6 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN01" />
 
-
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -27,11 +26,10 @@
             <intent-filter>
                 <action android:name="com.example.victor.charged.ListActivity" />
 
-
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
+        <activity android:name=".FloatingActivity"></activity>
     </application>
 
 </manifest>

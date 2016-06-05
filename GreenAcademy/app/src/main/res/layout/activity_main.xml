@@ -49,11 +49,23 @@
         android:layout_marginLeft="57dp"
         android:layout_marginStart="57dp" />
 
-    <EditText
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText2"
-        android:text="@string/contact_details"
-        android:layout_alignParentBottom="true"
+        android:text="@string/buttonnew_text"
+        android:id="@+id/button_new"
+        android:layout_alignBottom="@+id/textView"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_details"
+        android:id="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button_new"
+        android:layout_alignStart="@+id/button_new"
+        android:layout_alignRight="@+id/button_new"
+        android:layout_alignEnd="@+id/button_new" />
+
 </RelativeLayout>

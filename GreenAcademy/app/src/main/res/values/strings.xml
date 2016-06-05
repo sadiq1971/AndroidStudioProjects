@@ -2,8 +2,12 @@
     <string name="app_name">Green Academy</string>
 
 
+    <string name="splash_text">Welcome to Green Academy</string>
+
+
     <string name="home_text">Home</string>
     <string name="homeback_text">Back home</string>
+    <string name="buttonnew_text">To another page</string>
 
 
     <string name="contact_details">Contact: 0756 56 78 97</string>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.victor.greenacademy">
+    package="com.example.victor.greenacademy"
+    android:installLocation="preferExternal"
+    android:versionCode="1"
+    android:versionName="1.0">
 
     <application
         android:allowBackup="true"
@@ -20,7 +23,6 @@
                 <action android:name="com.example.victor.greenacademy.HomeActivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
-
             </intent-filter>
         </activity>
         <activity android:name=".AboutActivity">
@@ -33,6 +35,13 @@
         <activity android:name=".JoinActivity">
             <intent-filter>
                 <action android:name="com.example.victor.greenacademy.JoinActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NewActivity">
+            <intent-filter>
+                <action android:name="com.example.victor.greenacademy.NewActivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
